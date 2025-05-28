@@ -4,4 +4,7 @@ output_directory = "out"
 base_directory = "."
 
 [build.environment]
-NODE_VERSION = "22" 
+NODE_VERSION = "22"
+
+[deploy]
+command = "npx wrangler pages publish out" 
