@@ -7,7 +7,7 @@
     "build": "next build && cp public/_redirects out/",
     "start": "next start",
     "lint": "next lint",
-    "deploy": "npx wrangler pages deploy out --project-name=compress-images --branch=production"
+    "deploy": "npx wrangler pages deploy --project-name=compress-images --branch=production --assets=out"
   },
   "dependencies": {
     "@hookform/resolvers": "^3.9.1",
