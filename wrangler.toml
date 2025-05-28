@@ -1,5 +1,0 @@
-name = "compress-images"
-compatibility_date = "2025-05-28"
-
-[pages]
-# 无需配置静态资产路径，Pages会自动处理 
