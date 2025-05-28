@@ -1,27 +1,6 @@
 name = "compress-images"
 compatibility_date = "2025-05-28"
-main = "./.next/static/chunks/app/page.js"
+main = "./workers-site/index.js"
 
 [site]
-bucket = "./.next"
-
-[build]
-command = "pnpm run build"
-cwd = "."
-watch_dir = "app"
-
-[build.upload]
-format = "service-worker"
-
-[env.production]
-workers_dev = false
-route = "compressimages.net/*"
-
-[env.staging]
-name = "compress-images-staging"
-workers_dev = true
-
-# Configure static assets
-[site.static]
-source = ".next"
-destination = "/" 
+bucket = "out" 
