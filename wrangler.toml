@@ -1,5 +1,6 @@
 name = "compress-images"
 compatibility_date = "2025-05-28"
+main = "./.next/static/chunks/app/page.js"
 
 [site]
 bucket = "./.next"
