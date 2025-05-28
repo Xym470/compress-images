@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build && cp _redirects _headers out/",
+    "build": "next build && cp public/_redirects out/",
     "start": "next start",
     "lint": "next lint",
     "deploy": "npx wrangler pages deploy out --project-name=compress-images --branch=production"
