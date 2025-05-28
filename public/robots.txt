@@ -1,0 +1,4 @@
+# robots.txt for compressimages.net
+User-agent: *
+Allow: /
+Sitemap: https://compressimages.net/sitemap.xml 
